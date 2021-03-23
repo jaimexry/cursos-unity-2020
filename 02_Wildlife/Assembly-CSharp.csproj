@@ -680,6 +680,14 @@
       <Project>{3a51de75-b512-d629-119f-1c86bcad245f}</Project>
       <Name>Unity.Analytics.DataPrivacy</Name>
     </ProjectReference>
+    <ProjectReference Include="com.unity.cinemachine.editor.csproj">
+      <Project>{f849cac0-7647-6952-aa95-4ed962ebe447}</Project>
+      <Name>com.unity.cinemachine.editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Cinemachine.csproj">
+      <Project>{4092b64b-1e2c-507a-a87d-5ccf81057af5}</Project>
+      <Name>Cinemachine</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
