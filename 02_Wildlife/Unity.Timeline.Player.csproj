@@ -318,7 +318,7 @@
  <HintPath>D:/Archivos de programa/2020.2.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.XRModule.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>D:/Developer/Unity/02_Wildlife/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>D:/Developer/Unity/Curso2020/02_Wildlife/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>D:/Archivos de programa/2020.2.6f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

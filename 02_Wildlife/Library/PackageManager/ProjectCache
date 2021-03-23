@@ -1,6 +1,6 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: D:/Developer/Unity/02_Wildlife/Packages/manifest.json
+    m_FilePath: D:/Developer/Unity/Curso2020/02_Wildlife/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
@@ -8,12 +8,12 @@ m_ProjectFiles:
       ticks: 637505518253064877
     m_Hash: 1751498075
   m_LockFileStatus:
-    m_FilePath: D:/Developer/Unity/02_Wildlife/Packages/packages-lock.json
+    m_FilePath: D:/Developer/Unity/Curso2020/02_Wildlife/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637505518265365537
+      ticks: 637521045267447290
     m_Hash: 3223315789
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -25,7 +25,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.8
       source: 1
-      resolvedPath: D:\Developer\Unity\02_Wildlife\Library\PackageCache\com.unity.ads@2.0.8
+      resolvedPath: D:\Developer\Unity\Curso2020\02_Wildlife\Library\PackageCache\com.unity.ads@2.0.8
       assetPath: Packages/com.unity.ads
       name: com.unity.ads
       displayName: 
@@ -147,7 +147,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 3.2.2
       source: 1
-      resolvedPath: D:\Developer\Unity\02_Wildlife\Library\PackageCache\com.unity.analytics@3.2.2
+      resolvedPath: D:\Developer\Unity\Curso2020\02_Wildlife\Library\PackageCache\com.unity.analytics@3.2.2
       assetPath: Packages/com.unity.analytics
       name: com.unity.analytics
       displayName: Analytics Library
@@ -263,7 +263,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.3.9
       source: 1
-      resolvedPath: D:\Developer\Unity\02_Wildlife\Library\PackageCache\com.unity.collab-proxy@1.3.9
+      resolvedPath: D:\Developer\Unity\Curso2020\02_Wildlife\Library\PackageCache\com.unity.collab-proxy@1.3.9
       assetPath: Packages/com.unity.collab-proxy
       name: com.unity.collab-proxy
       displayName: Unity Collaborate
@@ -358,7 +358,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.7
       source: 1
-      resolvedPath: D:\Developer\Unity\02_Wildlife\Library\PackageCache\com.unity.ide.rider@2.0.7
+      resolvedPath: D:\Developer\Unity\Curso2020\02_Wildlife\Library\PackageCache\com.unity.ide.rider@2.0.7
       assetPath: Packages/com.unity.ide.rider
       name: com.unity.ide.rider
       displayName: JetBrains Rider Editor
@@ -513,7 +513,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.3
       source: 1
-      resolvedPath: D:\Developer\Unity\02_Wildlife\Library\PackageCache\com.unity.purchasing@2.0.3
+      resolvedPath: D:\Developer\Unity\Curso2020\02_Wildlife\Library\PackageCache\com.unity.purchasing@2.0.3
       assetPath: Packages/com.unity.purchasing
       name: com.unity.purchasing
       displayName: In App Purchasing
@@ -580,6 +580,7 @@ m_PackageAssets:
         - 3.0.0-pre.4
         - 3.0.0-pre.5
         - 3.0.0-pre.6
+        - 3.0.1
         compatible:
         - 0.0.3
         - 0.0.4
@@ -612,6 +613,7 @@ m_PackageAssets:
         - 3.0.0-pre.4
         - 3.0.0-pre.5
         - 3.0.0-pre.6
+        - 3.0.1
         verified: 2.2.2
       dependencies: []
       resolvedDependencies: []
@@ -644,7 +646,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.1.22
       source: 1
-      resolvedPath: D:\Developer\Unity\02_Wildlife\Library\PackageCache\com.unity.test-framework@1.1.22
+      resolvedPath: D:\Developer\Unity\Curso2020\02_Wildlife\Library\PackageCache\com.unity.test-framework@1.1.22
       assetPath: Packages/com.unity.test-framework
       name: com.unity.test-framework
       displayName: Test Framework
@@ -686,9 +688,11 @@ m_PackageAssets:
         - 1.1.19
         - 1.1.20
         - 1.1.22
+        - 1.1.24
         compatible:
         - 1.1.22
-        verified: 1.1.22
+        - 1.1.24
+        verified: 1.1.24
       dependencies:
       - name: com.unity.ext.nunit
         version: 1.0.6
@@ -731,7 +735,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 3.0.4
       source: 1
-      resolvedPath: D:\Developer\Unity\02_Wildlife\Library\PackageCache\com.unity.textmeshpro@3.0.4
+      resolvedPath: D:\Developer\Unity\Curso2020\02_Wildlife\Library\PackageCache\com.unity.textmeshpro@3.0.4
       assetPath: Packages/com.unity.textmeshpro
       name: com.unity.textmeshpro
       displayName: TextMeshPro
@@ -882,7 +886,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.4.6
       source: 1
-      resolvedPath: D:\Developer\Unity\02_Wildlife\Library\PackageCache\com.unity.timeline@1.4.6
+      resolvedPath: D:\Developer\Unity\Curso2020\02_Wildlife\Library\PackageCache\com.unity.timeline@1.4.6
       assetPath: Packages/com.unity.timeline
       name: com.unity.timeline
       displayName: Timeline
@@ -942,6 +946,7 @@ m_PackageAssets:
         - 1.4.4
         - 1.4.5
         - 1.4.6
+        - 1.4.7
         - 1.5.0-pre.2
         - 1.5.0-preview.1
         - 1.5.0-preview.2
@@ -952,9 +957,12 @@ m_PackageAssets:
         - 1.5.1-pre.2
         - 1.5.1-pre.3
         - 1.5.2
+        - 1.5.4
         - 1.6.0-pre.1
+        - 1.6.0-pre.3
         compatible:
         - 1.4.6
+        - 1.4.7
         - 1.5.0-pre.2
         - 1.5.0-preview.1
         - 1.5.0-preview.2
@@ -965,8 +973,10 @@ m_PackageAssets:
         - 1.5.1-pre.2
         - 1.5.1-pre.3
         - 1.5.2
+        - 1.5.4
         - 1.6.0-pre.1
-        verified: 1.4.6
+        - 1.6.0-pre.3
+        verified: 1.4.7
       dependencies:
       - name: com.unity.modules.director
         version: 1.0.0
@@ -2821,7 +2831,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.6
       source: 1
-      resolvedPath: D:\Developer\Unity\02_Wildlife\Library\PackageCache\com.unity.ext.nunit@1.0.6
+      resolvedPath: D:\Developer\Unity\Curso2020\02_Wildlife\Library\PackageCache\com.unity.ext.nunit@1.0.6
       assetPath: Packages/com.unity.ext.nunit
       name: com.unity.ext.nunit
       displayName: Custom NUnit
@@ -2879,5 +2889,5 @@ m_PackageAssets:
         path: 
   m_LocalPackages:
     m_LocalFileStatus: []
-m_ProjectPath: D:/Developer/Unity/02_Wildlife/Packages
+m_ProjectPath: D:/Developer/Unity/Curso2020/02_Wildlife/Packages
 m_EditorVersion: 2020.2.6f1 (8a2143876886)

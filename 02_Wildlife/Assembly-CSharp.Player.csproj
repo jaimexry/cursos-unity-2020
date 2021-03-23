@@ -60,9 +60,9 @@
      <Compile Include="Assets\Scripts\PlayerController.cs" />
      <Compile Include="Assets\Scripts\MoveForward.cs" />
      <Compile Include="Assets\Challenge 2\Scripts\DestroyOutOfBoundsX.cs" />
+     <Compile Include="Assets\Prototyping\Scripts\PlayerControllerY.cs" />
      <Compile Include="Assets\Scripts\CheckCollisions.cs" />
      <Compile Include="Assets\Challenge 2\Scripts\MoveForwardX.cs" />
-     <Compile Include="Assets\Prototyping\Scripts\PlayerControllerY.cs" />
      <None Include="Assets\Course Library\_Source_Files\_LICENSE.txt" />
  <Reference Include="UnityEngine">
  <HintPath>D:/Archivos de programa/2020.2.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.dll</HintPath>
@@ -260,16 +260,16 @@
  <HintPath>D:/Archivos de programa/2020.2.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.XRModule.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>D:/Developer/Unity/02_Wildlife/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>D:/Developer/Unity/Curso2020/02_Wildlife/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline.Editor">
- <HintPath>D:/Developer/Unity/02_Wildlife/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ <HintPath>D:/Developer/Unity/Curso2020/02_Wildlife/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>D:/Developer/Unity/02_Wildlife/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>D:/Developer/Unity/Curso2020/02_Wildlife/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Rider.Editor">
- <HintPath>D:/Developer/Unity/02_Wildlife/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ <HintPath>D:/Developer/Unity/Curso2020/02_Wildlife/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>D:/Archivos de programa/2020.2.6f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
