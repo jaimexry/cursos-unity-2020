@@ -326,17 +326,17 @@
  <Reference Include="Unity.Analytics.StandardEvents">
  <HintPath>D:/Developer/Unity/Curso2020/05_QuickClick/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
  </Reference>
- <Reference Include="UnityEditor.Purchasing">
- <HintPath>D:/Developer/Unity/Curso2020/05_QuickClick/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
- </Reference>
  <Reference Include="Unity.Analytics.Editor">
  <HintPath>D:/Developer/Unity/Curso2020/05_QuickClick/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
  </Reference>
- <Reference Include="Unity.Analytics.Tracker">
- <HintPath>D:/Developer/Unity/Curso2020/05_QuickClick/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+ <Reference Include="UnityEditor.Purchasing">
+ <HintPath>D:/Developer/Unity/Curso2020/05_QuickClick/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>D:/Developer/Unity/Curso2020/05_QuickClick/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Analytics.Tracker">
+ <HintPath>D:/Developer/Unity/Curso2020/05_QuickClick/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
  <HintPath>D:/Developer/Unity/Curso2020/05_QuickClick/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>

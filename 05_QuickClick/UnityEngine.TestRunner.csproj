@@ -66,6 +66,7 @@
      <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.24\UnityEngine.TestRunner\NUnitExtensions\Runner\UnityTestExecutionContext.cs" />
      <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.24\UnityEngine.TestRunner\NUnitExtensions\Runner\FailCommand.cs" />
      <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.24\UnityEngine.TestRunner\TestRunner\RemoteHelpers\RemoteTestResultData.cs" />
+     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.24\UnityEngine.TestRunner\NUnitExtensions\Commands\UnityTestMethodCommand.cs" />
      <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.24\UnityEngine.TestRunner\Utils\Vector4ComparerWithEqualsOperator.cs" />
      <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.24\UnityEngine.TestRunner\TestRunner\SynchronousFilter.cs" />
      <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.24\UnityEngine.TestRunner\Assertions\InvalidSignatureException.cs" />
@@ -142,10 +143,10 @@
      <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.24\UnityEngine.TestRunner\Assertions\ConstraintsExtensions.cs" />
      <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.24\UnityEngine.TestRunner\NUnitExtensions\Attributes\UnityTestAttribute.cs" />
      <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.24\UnityEngine.TestRunner\Utils\AssemblyProvider\ScriptingRuntimeProxy.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.24\UnityEngine.TestRunner\TestRunner\Callbacks\TestResultRendererCallback.cs" />
      <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.24\UnityEngine.TestRunner\TestRunner\RemoteHelpers\PlayerConnectionMessageIds.cs" />
      <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.24\UnityEngine.TestRunner\Utils\Vector2EqualityComparer.cs" />
      <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.24\UnityEngine.TestRunner\Utils\Utils.cs" />
+     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.24\UnityEngine.TestRunner\TestRunner\Callbacks\TestResultRendererCallback.cs" />
      <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.24\UnityEngine.TestRunner\AssemblyInfo.cs" />
      <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.24\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestMustExpectAllLogsAttribute.cs" />
      <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.24\UnityEngine.TestRunner\Assertions\LogScope\LogEvent.cs" />
@@ -161,7 +162,6 @@
      <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.24\UnityEngine.TestRunner\NUnitExtensions\Runner\DefaultTestWorkItem.cs" />
      <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.24\UnityEngine.TestRunner\Utils\FloatEqualityComparer.cs" />
      <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.24\UnityEngine.TestRunner\Assertions\Is.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.24\UnityEngine.TestRunner\NUnitExtensions\Commands\UnityTestMethodCommand.cs" />
  <Reference Include="UnityEngine">
  <HintPath>D:/Archivos de programa/2020.2.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>

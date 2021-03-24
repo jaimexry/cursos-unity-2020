@@ -52,9 +52,9 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Library\PackageCache\com.unity.analytics@3.2.2\DataPrivacy\DataPrivacyButton.cs" />
      <Compile Include="Library\PackageCache\com.unity.analytics@3.2.2\DataPrivacy\AssemblyInfo.cs" />
      <Compile Include="Library\PackageCache\com.unity.analytics@3.2.2\DataPrivacy\DataPrivacy.cs" />
+     <Compile Include="Library\PackageCache\com.unity.analytics@3.2.2\DataPrivacy\DataPrivacyButton.cs" />
  <Reference Include="UnityEngine">
  <HintPath>D:/Archivos de programa/2020.2.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.dll</HintPath>
  </Reference>

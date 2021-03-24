@@ -109,12 +109,12 @@
      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.7\Editor\Signals\SignalReceiverHeader.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.7\Editor\Undo\UndoExtensions.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.7\Editor\Audio\AudioClipPropertiesDrawer.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@1.4.7\Editor\treeview\Drawers\Layers\ItemsLayer.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.7\Editor\CustomEditors\ClipEditor.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.7\Editor\Signals\SignalEmitterInspector.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.7\Editor\Window\Modes\TimelineActiveMode.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.7\Editor\Manipulators\Cursors\TimelineCursors.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.7\Editor\treeview\TrackPropertyCurvesDataSource.cs" />
+     <Compile Include="Library\PackageCache\com.unity.timeline@1.4.7\Editor\treeview\Drawers\Layers\ItemsLayer.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.7\Editor\Signals\SignalUtility.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.7\Editor\treeview\Snapping\IAttractable.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.7\Editor\Manipulators\Trim\TrimItemModeReplace.cs" />
@@ -210,12 +210,12 @@
      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.7\Editor\Manipulators\Sequence\Jog.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.7\Editor\Actions\MarkerActions.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.7\Editor\Utilities\AnimatedParameterUtility.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@1.4.7\Editor\treeview\Drawers\InfiniteTrackDrawer.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.7\Editor\Shortcuts.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.7\Editor\Window\TimelineWindow_Manipulators.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.7\Editor\treeview\PickerUtils.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.7\Editor\Window\TimelineWindowTimeControl.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.7\Editor\Window\TimelineWindow_EditorCallbacks.cs" />
+     <Compile Include="Library\PackageCache\com.unity.timeline@1.4.7\Editor\treeview\Drawers\InfiniteTrackDrawer.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.7\Editor\Utilities\Scopes\IndentLevelScope.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.7\Editor\Actions\TimelineActions.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.7\Editor\Utilities\BreadcrumbDrawer.cs" />
@@ -548,17 +548,17 @@
  <Reference Include="Unity.Analytics.StandardEvents">
  <HintPath>D:/Developer/Unity/Curso2020/05_QuickClick/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
  </Reference>
- <Reference Include="UnityEditor.Purchasing">
- <HintPath>D:/Developer/Unity/Curso2020/05_QuickClick/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
- </Reference>
  <Reference Include="Unity.Analytics.Editor">
  <HintPath>D:/Developer/Unity/Curso2020/05_QuickClick/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
  </Reference>
- <Reference Include="Unity.Analytics.Tracker">
- <HintPath>D:/Developer/Unity/Curso2020/05_QuickClick/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+ <Reference Include="UnityEditor.Purchasing">
+ <HintPath>D:/Developer/Unity/Curso2020/05_QuickClick/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>D:/Developer/Unity/Curso2020/05_QuickClick/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Analytics.Tracker">
+ <HintPath>D:/Developer/Unity/Curso2020/05_QuickClick/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
  <HintPath>D:/Developer/Unity/Curso2020/05_QuickClick/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
