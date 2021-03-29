@@ -7,17 +7,21 @@ public class TrailMovement : MonoBehaviour
 {
     public float speed = 10;
     private Vector3 target;
-
+    private GameManager gameManager;
     void Start()
     {
+        gameManager = FindObjectOfType<GameManager>();
         target = transform.position;
     }
 
     // Update is called once per frame
     void Update()
     {
-        target = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        target.z = 0f;
-        this.transform.position = Vector3.MoveTowards(transform.position, target, speed);
+        if (gameManager.gameState == GameManager.GameState.inGame)
+        {
+            target = Camera.main.ScreenToWorldPoint(Input.mousePosition); 
+            target.z = 0f;
+            this.transform.position = Vector3.MoveTowards(transform.position, target, speed);
+        }
     }
 }
