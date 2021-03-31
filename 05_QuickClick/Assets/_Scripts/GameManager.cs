@@ -1,12 +1,15 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using Random = UnityEngine.Random;
 
 public class GameManager : MonoBehaviour
 {
+    private const string MAX_SCORE = "MAX_SCORE";
     public enum GameState
     {
         loading,
@@ -27,6 +30,9 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI gameOverText;
     private int score;
 
+    private int numberOfLives = 4;
+    public List<GameObject> lives;
+
     private int Score
     {
         get
@@ -38,7 +44,12 @@ public class GameManager : MonoBehaviour
             score = Mathf.Clamp(value, 0, 9999);
         }
     }
-    
+
+    void Start()
+    {
+        ShowMaxScore();
+    }
+
     /// <summary>
     /// Inicia la partida cambiando el estado de juego a inGame
     /// </summary>
@@ -47,6 +58,13 @@ public class GameManager : MonoBehaviour
     {
         gameState = GameState.inGame;
         spawnRate /= difficulty;
+        numberOfLives -= difficulty;
+
+        for (int i = 0; i < numberOfLives; i++)
+        {
+            lives[i].SetActive(true);
+        }
+        
         StartCoroutine(SpawnTarget());
 
         Score = 0; 
@@ -54,7 +72,6 @@ public class GameManager : MonoBehaviour
         gameOverText.gameObject.SetActive(false);
         restartButton.gameObject.SetActive(false);
         titleScreen.gameObject.SetActive(false);
-        scoreText.gameObject.SetActive(true);
     }
 
     /// <summary>
@@ -82,13 +99,47 @@ public class GameManager : MonoBehaviour
     }
 
     /// <summary>
+    /// Muestra la máxima puntuación conseguida por el usuario
+    /// </summary>
+    public void ShowMaxScore()
+    {
+        int maxScore = PlayerPrefs.GetInt(MAX_SCORE, 0);
+        scoreText.text = "Puntuacion Maxima: \n" + maxScore;
+    }
+
+    /// <summary>
+    /// Actualiza la puntuación máxima del usuario
+    /// </summary>
+    private void SetMaxScore()
+    {
+        int maxScore = PlayerPrefs.GetInt(MAX_SCORE, 0);
+        if (score > maxScore)
+        {
+            PlayerPrefs.SetInt(MAX_SCORE, score);
+        }
+    }
+    
+    /// <summary>
     /// Actualiza el estado del juego a GameOver
     /// </summary>
     public void GameOver()
     {
-        gameState = GameState.gameOver;
-        gameOverText.gameObject.SetActive(true);
-        restartButton.gameObject.SetActive(true);
+        numberOfLives--;
+        if (numberOfLives >= 0)
+        {
+            Image heartImage = lives[numberOfLives].GetComponent<Image>();
+            var tempColor = heartImage.color;
+            tempColor.a = 0.3f;
+            heartImage.color = tempColor;
+        }
+        
+        if (numberOfLives <= 0)
+        {
+            SetMaxScore();
+            gameState = GameState.gameOver;
+            gameOverText.gameObject.SetActive(true);
+            restartButton.gameObject.SetActive(true);
+        }
     }
 
     /// <summary>

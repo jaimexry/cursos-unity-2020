@@ -5,13 +5,11 @@ using UnityEngine;
 
 public class TrailMovement : MonoBehaviour
 {
-    public float speed = 10;
-    private Vector3 target;
     private GameManager gameManager;
+    public Camera _camera;
     void Start()
     {
         gameManager = FindObjectOfType<GameManager>();
-        target = transform.position;
     }
 
     // Update is called once per frame
@@ -19,9 +17,9 @@ public class TrailMovement : MonoBehaviour
     {
         if (gameManager.gameState == GameManager.GameState.inGame)
         {
-            target = Camera.main.ScreenToWorldPoint(Input.mousePosition); 
-            target.z = 0f;
-            this.transform.position = Vector3.MoveTowards(transform.position, target, speed);
+            Vector3 mousePos = _camera.ScreenToWorldPoint(Input.mousePosition);
+            mousePos = new Vector3(mousePos.x, mousePos.y);
+            this.transform.position = mousePos;
         }
     }
 }
