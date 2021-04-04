@@ -52,12 +52,12 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\WaypointPatrol.cs" />
      <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
+     <Compile Include="Assets\Scripts\Observer.cs" />
      <Compile Include="Assets\Scripts\GameEnding.cs" />
      <Compile Include="Assets\Scripts\LightFlicker.cs" />
-     <Compile Include="Assets\Scripts\Observer.cs" />
-     <Compile Include="Assets\Scripts\WaypointPatrol.cs" />
      <None Include="Assets\3DBeginner_Third-PartyNotice.txt" />
      <None Include="Assets\Shaders\ToonShader.shader" />
      <None Include="Assets\Shaders\SpookyStandardShader.shader" />
@@ -725,6 +725,30 @@
     <ProjectReference Include="UnityEditor.SpatialTracking.csproj">
       <Project>{3b52efff-3233-dd9b-7f21-05809636056a}</Project>
       <Name>UnityEditor.SpatialTracking</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.csproj">
+      <Project>{7e8b34f6-53af-98da-5420-d4d16a97166c}</Project>
+      <Name>Unity.RenderPipelines.Core.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Searcher.Editor.csproj">
+      <Project>{7aa46040-6b32-3d6a-3dfa-29028c927be7}</Project>
+      <Name>Unity.Searcher.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Core.Editor.csproj">
+      <Project>{549caba5-a4ba-e94d-405f-630c6040cd86}</Project>
+      <Name>Unity.RenderPipelines.Core.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Core.ShaderLibrary.csproj">
+      <Project>{c493243a-5e47-33a0-f3d3-f7d610bc9b23}</Project>
+      <Name>Unity.RenderPipelines.Core.ShaderLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.csproj">
+      <Project>{8797fea1-3d0e-b7b7-9d02-42aa8461dfc4}</Project>
+      <Name>Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.ShaderGraph.Editor.csproj">
+      <Project>{0b6cedbd-4342-cddb-3f70-fb2eeb6ea565}</Project>
+      <Name>Unity.ShaderGraph.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

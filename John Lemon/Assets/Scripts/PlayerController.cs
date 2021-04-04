@@ -9,6 +9,8 @@ public class PlayerController : MonoBehaviour
     private Vector3 movement;
     private Animator _animator;
     private Rigidbody _rigidbody;
+
+    private AudioSource _audioSource;
     
     [SerializeField]
     private float turnSpeed;
@@ -18,6 +20,7 @@ public class PlayerController : MonoBehaviour
     {
         _animator = GetComponent<Animator>();
         _rigidbody = GetComponent<Rigidbody>();
+        _audioSource = GetComponent<AudioSource>();
     }
 
     void FixedUpdate()
@@ -30,7 +33,17 @@ public class PlayerController : MonoBehaviour
         bool hasHorizontalInput = !Mathf.Approximately(horizontal, 0f);
         bool hasVerticalInput = !Mathf.Approximately(vertical, 0f);
         bool isWalking = hasHorizontalInput || hasVerticalInput;
-        
+        if (isWalking)
+        {
+            if (!_audioSource.isPlaying)
+            {
+                _audioSource.Play();
+            }
+        }
+        else
+        {
+            _audioSource.Stop();
+        }
         _animator.SetBool("IsWalking", isWalking);
 
         Vector3 desiredForward = Vector3.RotateTowards(transform.forward,

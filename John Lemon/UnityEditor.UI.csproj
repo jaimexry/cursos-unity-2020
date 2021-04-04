@@ -336,6 +336,9 @@
  <Reference Include="Unity.Analytics.Tracker">
  <HintPath>D:/Developer/Unity/Curso2020/John Lemon/Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Tracker.dll</HintPath>
  </Reference>
+ <Reference Include="ICSharpCode.NRefactory">
+ <HintPath>D:/Developer/Unity/Curso2020/John Lemon/Library/PackageCache/com.unity.render-pipelines.core@10.3.2/Editor/ShaderGenerator/ICSharpCode.NRefactory.dll</HintPath>
+ </Reference>
  <Reference Include="nunit.framework">
  <HintPath>D:/Developer/Unity/Curso2020/John Lemon/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
  </Reference>

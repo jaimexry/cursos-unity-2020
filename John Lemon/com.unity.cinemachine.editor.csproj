@@ -366,6 +366,9 @@
  <Reference Include="Unity.Analytics.Tracker">
  <HintPath>D:/Developer/Unity/Curso2020/John Lemon/Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Tracker.dll</HintPath>
  </Reference>
+ <Reference Include="ICSharpCode.NRefactory">
+ <HintPath>D:/Developer/Unity/Curso2020/John Lemon/Library/PackageCache/com.unity.render-pipelines.core@10.3.2/Editor/ShaderGenerator/ICSharpCode.NRefactory.dll</HintPath>
+ </Reference>
  <Reference Include="nunit.framework">
  <HintPath>D:/Developer/Unity/Curso2020/John Lemon/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
  </Reference>
@@ -741,6 +744,14 @@
     <ProjectReference Include="Unity.Postprocessing.Editor.csproj">
       <Project>{1152c0d7-fe3c-3dbc-a40f-021066e9896f}</Project>
       <Name>Unity.Postprocessing.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.csproj">
+      <Project>{7e8b34f6-53af-98da-5420-d4d16a97166c}</Project>
+      <Name>Unity.RenderPipelines.Core.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Core.Editor.csproj">
+      <Project>{549caba5-a4ba-e94d-405f-630c6040cd86}</Project>
+      <Name>Unity.RenderPipelines.Core.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
       <Project>{acfa23a9-0313-e7d4-0799-7b8ba32c3a6d}</Project>

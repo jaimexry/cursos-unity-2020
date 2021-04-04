@@ -17,6 +17,9 @@ public class GameEnding : MonoBehaviour
     public CanvasGroup caughtBackgroundImageCanvasGroup;
     
     private float timer;
+
+    public AudioSource exitAudio, caughtAudio;
+    private bool hasAudioPlayed;
     
     private void OnTriggerEnter(Collider other)
     {
@@ -30,11 +33,11 @@ public class GameEnding : MonoBehaviour
     {
         if (isPlayerAtExit && !isPlayerCaught)
         {
-           EndLevel(exitBackgroundImageCanvasGroup, false);
+           EndLevel(exitBackgroundImageCanvasGroup, false, exitAudio);
         }
         else if (isPlayerCaught && !isPlayerAtExit)
         {
-            EndLevel(caughtBackgroundImageCanvasGroup, true);
+            EndLevel(caughtBackgroundImageCanvasGroup, true, caughtAudio);
         }
     }
     
@@ -43,8 +46,13 @@ public class GameEnding : MonoBehaviour
     /// </summary>
     /// <param name="image">Imagen de fin de partida correspondiente</param>
     /// <param name="doRestart">Parámetro de reinicio de partida</param>
-    private void EndLevel(CanvasGroup image, bool doRestart)
+    private void EndLevel(CanvasGroup image, bool doRestart, AudioSource audioSource)
     {
+        if (!hasAudioPlayed)
+        {
+            audioSource.Play();
+            hasAudioPlayed = true;
+        }
         timer += Time.deltaTime;
         image.alpha = timer / fadeDuration;
 

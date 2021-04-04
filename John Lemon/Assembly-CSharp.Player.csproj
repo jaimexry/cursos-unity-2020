@@ -52,12 +52,12 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\WaypointPatrol.cs" />
      <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
+     <Compile Include="Assets\Scripts\Observer.cs" />
      <Compile Include="Assets\Scripts\GameEnding.cs" />
      <Compile Include="Assets\Scripts\LightFlicker.cs" />
-     <Compile Include="Assets\Scripts\Observer.cs" />
-     <Compile Include="Assets\Scripts\WaypointPatrol.cs" />
      <None Include="Assets\3DBeginner_Third-PartyNotice.txt" />
      <None Include="Assets\Shaders\ToonShader.shader" />
      <None Include="Assets\Shaders\SpookyStandardShader.shader" />
@@ -286,6 +286,15 @@
  </Reference>
  <Reference Include="UnityEditor.SpatialTracking">
  <HintPath>D:/Developer/Unity/Curso2020/John Lemon/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Searcher.Editor">
+ <HintPath>D:/Developer/Unity/Curso2020/John Lemon/Library/ScriptAssemblies/Unity.Searcher.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.RenderPipelines.Core.Editor">
+ <HintPath>D:/Developer/Unity/Curso2020/John Lemon/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.ShaderGraph.Editor">
+ <HintPath>D:/Developer/Unity/Curso2020/John Lemon/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Purchasing">
  <HintPath>D:/Developer/Unity/Curso2020/John Lemon/Library/PackageCache/com.unity.purchasing@2.0.6/UnityEngine.Purchasing.dll</HintPath>
@@ -676,6 +685,18 @@
     <ProjectReference Include="UnityEngine.Monetization.csproj">
       <Project>{432102ca-a82f-9e9c-2847-0174895a414b}</Project>
       <Name>UnityEngine.Monetization</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.csproj">
+      <Project>{7e8b34f6-53af-98da-5420-d4d16a97166c}</Project>
+      <Name>Unity.RenderPipelines.Core.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Core.ShaderLibrary.csproj">
+      <Project>{c493243a-5e47-33a0-f3d3-f7d610bc9b23}</Project>
+      <Name>Unity.RenderPipelines.Core.ShaderLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.csproj">
+      <Project>{8797fea1-3d0e-b7b7-9d02-42aa8461dfc4}</Project>
+      <Name>Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

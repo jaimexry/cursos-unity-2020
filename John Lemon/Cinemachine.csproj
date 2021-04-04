@@ -369,6 +369,9 @@
  <Reference Include="Unity.Analytics.Tracker">
  <HintPath>D:/Developer/Unity/Curso2020/John Lemon/Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Tracker.dll</HintPath>
  </Reference>
+ <Reference Include="ICSharpCode.NRefactory">
+ <HintPath>D:/Developer/Unity/Curso2020/John Lemon/Library/PackageCache/com.unity.render-pipelines.core@10.3.2/Editor/ShaderGenerator/ICSharpCode.NRefactory.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>D:/Archivos de programa/2020.2.6f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
  </Reference>
@@ -729,6 +732,10 @@
     <ProjectReference Include="Unity.Postprocessing.Runtime.csproj">
       <Project>{6dbf3712-706f-7b46-df53-3e1332f10f2f}</Project>
       <Name>Unity.Postprocessing.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.csproj">
+      <Project>{7e8b34f6-53af-98da-5420-d4d16a97166c}</Project>
+      <Name>Unity.RenderPipelines.Core.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
       <Project>{acfa23a9-0313-e7d4-0799-7b8ba32c3a6d}</Project>
